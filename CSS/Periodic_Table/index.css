@@ -1,0 +1,36 @@
+table {
+  border-spacing: 9px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%;
+  margin: auto;
+}
+body {
+  overflow-y: hidden;
+}
+.head {
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  color: blueviolet;
+  text-align: center;
+}
+.O {
+  background-color: orange;
+  border: 1px solid black;
+}
+.B {
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+.Y {
+  background-color: yellow;
+  border: 1px solid black;
+}
+.G {
+  background-color: aquamarine;
+  border: 1px solid black;
+}

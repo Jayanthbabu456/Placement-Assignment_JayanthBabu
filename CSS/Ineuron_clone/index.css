@@ -1,0 +1,9 @@
+.item {
+  animation: slide 35s infinite linear;
+}
+
+@keyframes slide {
+  100% {
+    transform: translateX(-100%);
+  }
+}
