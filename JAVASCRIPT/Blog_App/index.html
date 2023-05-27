@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#add-blog-section">Write Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="bgimage">
+          <img src="./assets/header.png" alt="header" />
+        </div>
+        <section id="add-blog-section">
+          <p>Add a New Blog</p>
+          <input type="text" id="title" placeholder="Title" />
+          <textarea id="body" placeholder="Content"></textarea>
+          <button id="add-btn">Add Blog</button>
+        </section>
+
+        <section id="blogs-section">
+          <div id="blogs"></div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
